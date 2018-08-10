@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>SecurityApp2-Form</display-name>
+   <servlet>
+        <servlet-name>loan</servlet-name>
+        <jsp-file>/loan_approval.jsp</jsp-file>
+   </servlet>
+   <servlet-mapping>
+        <servlet-name>loan</servlet-name>
+        <url-pattern>/loanurl</url-pattern>
+   </servlet-mapping>
+   <security-constraint>
+     <web-resource-collection>
+        <web-resource-name>r1</web-resource-name>
+        <url-pattern>/loanurl</url-pattern>
+        <http-method>GET</http-method>
+     </web-resource-collection>
+      <auth-constraint>
+        <role-name>manager</role-name>
+      </auth-constraint>
+   </security-constraint>
+   <login-config>
+     <auth-method>FORM</auth-method>
+     <realm-name>myrealm</realm-name>
+     <form-login-config>
+        <form-login-page>/login.html</form-login-page>
+        <form-error-page>/error.html</form-error-page>
+     </form-login-config>
+     
+   </login-config>
+    
+   
+</web-app>

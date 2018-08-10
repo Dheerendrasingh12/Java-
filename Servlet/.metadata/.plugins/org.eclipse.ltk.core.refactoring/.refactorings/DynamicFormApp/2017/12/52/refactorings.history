@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.dheerendra.servlet&apos; to &apos;HiddenFormDyanamic/src&apos;&#x0D;&#x0A;- Original project: &apos;DynamicFormApp&apos;&#x0D;&#x0A;- Destination element: &apos;HiddenFormDyanamic/src&apos;&#x0D;&#x0A;- Original element: &apos;DynamicFormApp/src/com.dheerendra.servlet&apos;" description="Copy package" destination="=HiddenFormDyanamic/src" element1="/src&lt;com.dheerendra.servlet" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1514208221709" version="1.0"/>
+</session>

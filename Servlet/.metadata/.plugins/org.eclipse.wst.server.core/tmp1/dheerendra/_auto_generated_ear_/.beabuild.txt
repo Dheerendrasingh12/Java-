@@ -1,0 +1,3 @@
+G\:/Dheer/Documents/Advance/Servlet/SearchApp-webLogic/WebContent = SearchApp-webLogic.war
+G\:/Dheer/Documents/Advance/Servlet/.metadata/.plugins/org.eclipse.core.resources/SearchApp-WebLogic/build/weboutput = SearchApp-webLogic.war
+G\:/Dheer/Documents/Advance/Servlet/SearchApp-webLogic/build/classes = SearchApp-webLogic.war/WEB-INF/classes

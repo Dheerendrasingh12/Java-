@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DynamicFormHiddenField/WebContent/input.html&apos; to &apos;form.html&apos;" description="Rename resource &apos;input.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/input.html" name="form.html" stamp="1514145108135" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DynamicFormHiddenField/WebContent/form.html&apos; to &apos;input.html&apos;" description="Rename resource &apos;form.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/form.html" name="input.html" stamp="1514206361726" updateReferences="true"/>
+</session>

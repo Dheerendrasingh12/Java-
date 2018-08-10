@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.ASPECTJRT_LIB=F\:/Dheer/Eclipse/eclipse-jee-oxygen-1a-win32-x86_64/eclipse/plugins/org.aspectj.runtime_1.8.10.201710051806.jar
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=F\:/Dheer/Eclipse/eclipse-jee-oxygen-1a-win32-x86_64/eclipse/
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files/Java/jdk1.8.0_92/jre/lib/rt.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Program Files/Java/jdk1.8.0_92/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=F\:/Dheer/Eclipse/eclipse-jee-oxygen-1a-win32-x86_64/eclipse/plugins/org.junit_4.12.0.v201504281640/
+org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/Dheer/.m2/repository
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
+org.eclipse.jdt.core.compiler.compliance=1.8
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.source=1.8
+org.eclipse.jdt.core.userLibrary.servlet=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/app/Dheerendra/product/11.2.0/dbhome_1/jdbc/lib/ojdbc6.jar"/>\r\n\t<archive path\="G\:/Dheer/Documents/Tomcat/lib/servlet-api.jar"/>\r\n</userlibrary>\r\n

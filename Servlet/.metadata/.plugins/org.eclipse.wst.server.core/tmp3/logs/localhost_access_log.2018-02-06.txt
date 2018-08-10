@@ -1,0 +1,7 @@
+127.0.0.1 - - [06/Feb/2018:15:52:35 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:15:52:38 +0530] "GET /DBSimpleCommunication/ HTTP/1.1" 200 253
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:15:52:46 +0530] "POST /DBSimpleCommunication/dburl HTTP/1.1" 200 31
+127.0.0.1 - - [06/Feb/2018:15:53:42 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:15:53:48 +0530] "POST /DBSimpleCommunication/dburl HTTP/1.1" 200 31
+127.0.0.1 - - [06/Feb/2018:15:54:55 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:15:55:02 +0530] "POST /DBSimpleCommunication/dburl HTTP/1.1" 200 31

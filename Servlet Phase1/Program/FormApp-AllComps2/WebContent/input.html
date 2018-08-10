@@ -1,0 +1,75 @@
+
+
+<h1 style="color:red;text-align:center">Working with diff types form comps</h1>
+
+<table border="1"  cols="2" rows="9" style="color:blue" align="left">
+  <form action="formurl"   method="get">
+   <tr>
+     <td> Name :</td>
+     <td> <input type="text" name="name"></td>
+   </tr>
+   <tr>
+     <td> Age:</td>
+     <td> <input type="password" name="age"></td>
+   </tr>
+   <tr>
+     <td> Gender:</td>
+     <td> 
+        <input type="radio" name="gender" value="M">Male &nbsp;&nbsp;
+        <input type="radio" name="gender" value="F" checked>FeMale &nbsp;&nbsp;
+     </td>
+   </tr>
+   <tr>
+     <td> Marital Status:</td>
+     <td> 
+        <input type="checkbox" name="ms" value="Married">Not Single
+     </td>
+   </tr>
+   <tr>
+     <td>Address</td>
+     <td> 
+        <textarea name="addrs"  rows="5" cols="20">
+           enter address
+        </textarea>  
+     </td>
+   </tr>
+    <tr>
+     <td>Hobies</td>
+     <td> 
+         <input type="checkbox"  name="hb"  value="reading" checked>Books Reading &nbsp;&nbsp;
+         <input type="checkbox"  name="hb"  value="sleeping">Meditation &nbsp;&nbsp;
+         <input type="checkbox"  name="hb"  value="roaming">Travelling &nbsp;&nbsp;
+         <input type="checkbox"  name="hb"  value="stamps">Stamp Collection &nbsp;&nbsp; 
+     </td>
+     
+   </tr>
+   
+   <tr>
+     <td>Qualification</td>
+     <td> 
+         <select name="qlfy"  >
+           <option value="engg">B.E/B.tech</option>
+           <option value="medico">MBBS</option>
+           <option value="commerce">B.Com</option>
+           <option value="arts">B.A</option>
+         </select> 
+     </td>
+   </tr>
+   
+    <tr>
+     <td>Courses</td>
+     <td> 
+         <select name="courses"  multiple >
+           <option value="cjava">CoreJava</option>
+           <option value="ajava">ADv.java</option>
+           <option value="sp">Spring</option>
+           <option value="hb">Hibernate</option>
+         </select> 
+     </td>
+   </tr>
+   <tr>
+     <td><input type="submit"  value="register"></td>
+     <td><input type="reset"  value="cancel"></td>
+   </tr>
+</form>
+</table>
