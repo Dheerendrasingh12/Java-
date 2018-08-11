@@ -1,0 +1,37 @@
+class A94
+{
+	void m1(int f){
+	System.out.println("A INT");
+	}
+	
+	void m1(char ch){
+	System.out.println("A char");
+	}
+};
+class B94 extends A94
+{
+	void m1(float a){
+	System.out.println("B float");
+	}
+	void m1(char ch){
+	System.out.println("B char");
+	}
+};
+class MOL_Inheritance2 
+{
+	public static void main(String[] args) 
+	{
+
+		B94 b=new B94();
+		b.m1(50);
+		b.m1('d');
+		b.m1(50L);
+		System.out.println("Hello World!");
+	
+	
+		A94 a=new B94();
+		a.m1(50);
+		a.m1('d');
+		//a.m1(50L);
+	}
+}

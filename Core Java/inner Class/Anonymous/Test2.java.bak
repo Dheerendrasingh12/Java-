@@ -1,0 +1,21 @@
+class Test2 
+{
+	public static void main(String[] args) 
+	{
+		Thread th1=new Thread();
+		Thread th2=new Thread(){};
+		Example e=new Example();
+		e.m1(new Thread(){});
+
+		e.m1(new Thread());
+
+		e.m1(new Thread());
+		System.out.println("Hello World!");
+		e.m1(new Thread(){
+			public void run(){
+				System.out.println("hi");
+			}
+		});
+	
+	}
+}

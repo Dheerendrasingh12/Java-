@@ -1,0 +1,14 @@
+package com.dheerendra.Synchronized;
+
+public class MyThread4 extends Thread {
+
+	Add a;
+
+	public MyThread4(Add a) {
+		this.a = a;
+	}
+	
+	public void run() {
+		a.add(50, 60);
+	}
+}

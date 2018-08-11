@@ -1,0 +1,11 @@
+package com.dheerendra.Daeemon;
+
+public class Daemon_Thread2 extends Thread{
+ public static void main(String[] args) {
+	Daemon_Thread2 mt=new Daemon_Thread2();
+	mt.start();
+
+	mt.setDaemon(true);
+
+ }
+}

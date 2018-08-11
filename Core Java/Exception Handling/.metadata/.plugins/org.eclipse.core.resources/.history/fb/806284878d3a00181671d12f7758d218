@@ -1,0 +1,10 @@
+package com.dheerendra.thread;
+
+public class My_Runnable imp new Runnable() {
+	public void run() {
+		
+	}
+}{
+
+
+}

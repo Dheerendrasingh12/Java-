@@ -1,0 +1,22 @@
+package com.dheerendra.Synchronized;
+
+public class Thread {
+
+	int x,y;
+	
+	void add(int x,int y) {
+		this.x=x;
+		this.y=y;
+		
+		try {
+			Thread.sleep(1000);
+		}catch (Exception e) {
+			e.printStackTrace();
+			// TODO: handle exception
+		}
+		
+		int res=this.x+this.y;
+		
+		System.out.println("in "+Thread.currentThread().getName()+" result "+res);
+	}
+}

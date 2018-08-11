@@ -1,0 +1,36 @@
+abstract class  Example1
+
+{
+	static int a=10;
+	int x=20;
+	static {
+		System.out.println("Example sb");
+	
+	}
+	{
+	
+		System.out.println("NS Example");
+	
+	}
+	Example1(){
+	
+		System.out.println("Example constructor");
+	}
+	static void m2(){
+	
+		System.out.println("ex static method");
+	}
+
+	 void m3(){
+	
+		System.out.println("ex non static method");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Example");
+
+System.out.println("a "+a);
+	m2();
+	Example1 ex=new Example1();
+	}
+}

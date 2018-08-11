@@ -1,0 +1,19 @@
+class Case_3 
+{
+	public static void main(String[] args) 
+	{
+		byte b=10;
+		short s=300;
+		char ch=108;
+		int i=12;
+		//int i1=2L;
+
+		float f=10l;
+		//float f1=10.0;                                                                     
+		float f2=12.0f;
+		final int i1=12;
+		byte b2=i1;
+		final int i2=211;
+		byte b3=i2;f
+	}
+}

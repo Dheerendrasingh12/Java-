@@ -1,0 +1,7 @@
+package com.dheerendra.Synchronized;
+
+public class MyThread extends Thread {
+
+	Add a;
+	
+}

@@ -1,0 +1,35 @@
+class ReplaceCharcater
+{
+	public static String replace(String str , char c)
+	{
+		char ch[]=str.toCharArray();
+		int count=0;
+		for(int i = 0 ; i<ch.length ; i++)
+		{
+			if(c==ch[i])
+				count++;
+		}
+		
+		char newch[]=new char[ch.length-count];
+		int j=0;
+		for(int i=0 ; i<newch.length ; i++)
+		{
+			if(c!=ch[i])
+			{
+				newch[j]=ch[i];
+				j++;
+			}
+		}
+		String newString=new String(newch);
+		return newString;
+	}
+
+	public static void main(String ...args)
+	{
+		System.out.println(replace("mahendra" , 'a'));
+	}
+}
+
+	
+		
+	

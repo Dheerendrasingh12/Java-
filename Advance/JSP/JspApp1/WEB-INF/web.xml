@@ -1,0 +1,11 @@
+<web-app>
+   <servlet>
+       <servlet-name>first</servlet-name>
+	   <jsp-file>/first.jsp</jsp-file>
+	   <load-on-startup>1</load-on-startup>
+   </servlet>
+     <servlet-mapping>
+         <servlet-name>first</servlet-name>
+		 <url-pattern>/test1</url-pattern>
+	 </servlet-mapping>
+</web-app>

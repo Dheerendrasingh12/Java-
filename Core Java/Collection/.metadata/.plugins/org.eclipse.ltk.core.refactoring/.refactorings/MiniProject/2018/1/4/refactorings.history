@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;AllOperator&apos; to &apos;MiniProject/src/AllOperator&apos;&#x0D;&#x0A;- Original project: &apos;MiniProject&apos;&#x0D;&#x0A;- Destination element: &apos;MiniProject/src/AllOperator&apos;&#x0D;&#x0A;- Original element: &apos;MiniProject/src/AllOperator&apos;" description="Copy package" destination="/src&lt;AllOperator" element1="/src&lt;AllOperator" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1516793414330" version="1.0"/>
+</session>

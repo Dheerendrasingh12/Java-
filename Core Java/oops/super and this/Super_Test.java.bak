@@ -1,0 +1,20 @@
+class Super_A
+{
+	Super_A(){
+		System.out.println("class A contructor "+this);
+	}
+};
+class Super_B extends Super_A
+{
+	Super_B(){
+		System.out.println("class B contructor "+this);
+	}
+};
+class Super_Test
+{
+	public static void main(String[] args) 
+	{
+		Super_B b=new Super_B();
+		System.out.println("class test main "+b);
+	}
+}

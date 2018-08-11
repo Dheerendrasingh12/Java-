@@ -1,0 +1,8 @@
+class Without_Main 
+{
+	static int a= m1();
+	static int m1(){
+		System.out.println("Lonely");
+		return 10;
+	}
+}

@@ -1,0 +1,16 @@
+class Test5 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println();
+		new Thread(){
+			void m1(){
+				int a=12;
+		
+				System.out.println(a);
+				
+			}
+		};
+	
+	}
+}

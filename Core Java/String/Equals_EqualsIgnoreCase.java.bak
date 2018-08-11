@@ -1,0 +1,74 @@
+class Equals_EqualsIgnoreCase 
+{
+	public static void main(String[] args) 
+	{
+		String s1="d";
+		String s2="d";
+
+		String s3=new String("d");
+		String s4=new String("d");
+
+		StringBuffer sb1=new StringBuffer("d");
+		StringBuffer sb2=new StringBuffer("d");
+		System.out.println(s1==s2);
+		System.out.println(s3==s4);
+		System.out.println(sb1==sb2);
+
+
+		System.out.println(s1.equals(s2));
+		System.out.println(s3.equals(s4));
+		System.out.println(sb1.equals(sb2));
+
+
+		String s5 ="d";
+		String s6="D";
+		
+		System.out.println(s5==s6);
+		System.out.println(s5.equals(s6));
+		System.out.println(s5.equalsIgnoreCase(s6));
+
+		Example e1=new Example(12);
+		Example e2=new Example(12);
+		Example e3=new Example(24); 
+			
+		Example e4=e3;
+
+		System.out.println(e1==e2);
+		System.out.println(e2==e3);
+		System.out.println(e3==e4);
+		
+		System.out.println(e1.equals(e2));
+		System.out.println(e2.equals(e3));
+		System.out.println(e3.equals(e4));
+
+		Sample sa1= new Sample();
+//		System.out.println(e1==sa1);
+//		System.out.println(e1.equals(sa1));
+
+		System.out.println(sa1.equals(e1));
+		System.out.println(sa1==null);
+		System.out.println(sa1.equals(null));
+		
+		System.out.println(sa1==null);
+		System.out.println(e1==null);
+
+
+	}
+}
+
+class Example
+{
+	int x;
+	Example(int x){
+		this.x=x;
+	}
+
+	public boolean equals(Object obj){
+		Example e=(Example)obj;
+		return (this.x==e.x);
+	
+	}
+}
+class Sample
+{
+}

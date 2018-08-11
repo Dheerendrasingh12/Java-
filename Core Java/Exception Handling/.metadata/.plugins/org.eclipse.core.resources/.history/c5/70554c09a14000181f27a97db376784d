@@ -1,0 +1,14 @@
+package com.dheerendra.object;
+
+public class Example2 {
+	public void display() {
+		System.out.println("Hello");
+	}
+	
+	public static void main(String[] args) throws ClassNotFoundException {
+	Class c1=Class.forName("Example");
+	
+
+}
+
+}

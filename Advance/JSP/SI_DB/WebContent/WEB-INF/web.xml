@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>DBJspApp</display-name>
+ 
+ <servlet>
+ 	<servlet-name>SI</servlet-name>
+ 	<jsp-file>/SI.jsp</jsp-file>
+ 	
+ 	<init-param>
+ 		<param-name>driver</param-name>
+ 		<param-value>oracle.jdbc.driver.OracleDriver</param-value>
+ 	</init-param>
+ 	<init-param>
+ 		<param-name>url</param-name>
+ 		<param-value>jdbc:oracle:thin:@localhost:1521:orcl</param-value>
+ 	</init-param>
+ 	<init-param>
+ 		<param-name>user</param-name>
+ 		<param-value>scott</param-value>
+ 	</init-param>
+	<init-param>
+		<param-name>pwd</param-name>
+		<param-value>root</param-value>
+	</init-param>
+
+	<load-on-startup>1</load-on-startup>
+ 
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>SI</servlet-name>
+ 	<url-pattern>/siurl</url-pattern>
+ </servlet-mapping>
+</web-app>

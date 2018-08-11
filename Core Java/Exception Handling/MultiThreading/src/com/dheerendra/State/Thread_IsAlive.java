@@ -1,0 +1,38 @@
+package com.dheerendra.State;
+
+class Thread_Alive extends Thread {
+	public void run() {
+		System.out.println("Run start");
+
+		System.out.println("ruum method mt state after start call " + this.isAlive());
+
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO: handle exception
+		}
+		System.out.println("run end");
+
+	}
+}
+
+public class Thread_IsAlive {
+	public static void main(String[] args) throws InterruptedException {
+
+		Thread_Alive mt = new Thread_Alive();
+
+		System.out.println("main method  state after object creation  "+mt.isAlive());
+		
+		mt.start();
+		System.out.println("main method  state after Start call  " + mt.isAlive());
+
+		Thread.sleep(500);
+		
+
+		System.out.println("main method  state after sleep call  "+mt.isAlive());
+		Thread.sleep(6000);
+
+		System.out.println("main method  state after run complete  " + mt.isAlive());
+
+	}
+}

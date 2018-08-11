@@ -1,0 +1,28 @@
+abstract class Con_Example
+{
+	static void m1(){
+	
+		System.out.println("con ex m1");
+	
+	}
+	 void m2(){
+	
+		System.out.println("con ex m2");
+	
+	}
+};
+ 
+ class   Concrete_As_Abstract		 extends Con_Example
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	Con_Example.m1();
+//	Con_Example ce=new Con_Example();
+
+m1();
+
+Concrete_As_Abstract ca=new Concrete_As_Abstract();
+
+	}
+}

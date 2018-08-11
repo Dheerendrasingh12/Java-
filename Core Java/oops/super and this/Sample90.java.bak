@@ -1,0 +1,30 @@
+class Example90 
+{
+	Example90(){
+		System.out.println("Ex no arg constructor");
+	}
+	
+	Example90(int a){
+		System.out.println("Ex int arg constructor");
+	}
+	Example90(String str){
+		System.out.println("Ex string arg constructor");
+	}
+}
+
+class Sample90 extends Example90 
+{
+	Sample90(){
+		System.out.println("Sa no arg constructor");
+	}
+	
+	Sample90(String str){
+//		super(10);
+		System.out.println("Sa string arg constructor");
+	}
+
+	public static void main(String...args){
+	Sample90 s1=new Sample90();
+	Sample90 s2=new Sample90("Dheerendra");
+	}
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+G:\Dheer\Documents\Core Java\Exception Handling\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+338304883.index
+1536574621.index
+3386722290.index
+1755714485.index
+2273179889.index
+174750496.index

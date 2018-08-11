@@ -1,0 +1,15 @@
+package com.dheerendra.Programming;
+
+public class MultipleThread {
+
+	public static void main(String[] args) {
+		MyThread3 mt1 = new MyThread3(7);
+		mt1.start();
+
+		MyThread3 mt2 = new MyThread3(12);
+		mt2.start();
+		MyThread3 mt3 = new MyThread3(20);
+		mt3.start();
+
+	}
+}

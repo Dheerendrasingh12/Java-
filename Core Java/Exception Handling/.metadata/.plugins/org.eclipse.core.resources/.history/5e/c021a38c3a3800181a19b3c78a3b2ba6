@@ -1,0 +1,10 @@
+package com.dheerendra.pennant;
+
+public class Try_Catch_Finally {
+	public static void main(String[] args) {
+		System.out.println(m1());
+	}
+	void m1() {
+		
+	}
+}

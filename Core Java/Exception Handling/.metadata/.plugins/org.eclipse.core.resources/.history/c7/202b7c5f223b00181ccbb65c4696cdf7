@@ -1,0 +1,15 @@
+package com.dheerendra.Pausing;
+
+public class Interrupt_Thread_Test extends Thread{
+	public static void main(String[] args) {
+		System.out.println("main start");
+		Interrupt_Thread it=new Interrupt_Thread();
+	//	it.interrupt();
+		it.start();
+		
+		it.interrupt();
+	
+	
+	}
+
+}

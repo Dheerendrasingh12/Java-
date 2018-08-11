@@ -1,0 +1,20 @@
+package com.dheerendra.pennant;
+
+public class Try_Catch_Finally2 {
+	public static void main(String[] args) {
+		int a=-1;
+		try {
+			a = 12/0;
+			System.out.println("in try "+a);
+		} catch (ArithmeticException ae) {
+			a = 20;
+			System.out.println(a);
+			// TODO: handle exception
+		} finally {
+			System.out.println("finally"+a);
+		}
+		System.out.println("AFTER FINALLY "+a);
+	
+		 
+	}
+}

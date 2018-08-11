@@ -1,0 +1,8 @@
+class  Thread_Approach 
+{
+	public void run() 
+	{
+		System.out.println("run()");
+	}
+
+}

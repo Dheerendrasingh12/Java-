@@ -1,0 +1,32 @@
+class Example4
+{
+	static class A
+	{
+		static int a=10;
+		int x=20;
+		private int y=30;
+
+	};
+};
+
+
+
+
+
+
+
+
+
+
+
+class Sample 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("a "+Example4.A.a);
+		Example4.A a1=new Example4.A();
+		System.out.println("x: "+a1.x);
+//		System.out.println("y "+a1.y);
+		
+	}
+}

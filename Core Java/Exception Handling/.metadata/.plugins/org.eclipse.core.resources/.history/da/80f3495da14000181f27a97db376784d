@@ -1,0 +1,17 @@
+package com.dheerendra.object;
+
+public class Example2 {
+	public void display() {
+		System.out.println("Hello");
+	}
+
+	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+		Class c1 = Class.forName("Example2");
+		Object obj=c1.newInstance();
+		
+		
+		
+		
+	}
+
+}

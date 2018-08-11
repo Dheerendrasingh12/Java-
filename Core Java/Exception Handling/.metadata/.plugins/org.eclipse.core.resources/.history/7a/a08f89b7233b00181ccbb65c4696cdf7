@@ -1,0 +1,17 @@
+package com.dheerendra.Pausing;
+
+public class Join_Sleep_Thread extends
+Thread{
+
+	public void run() {
+		System.out.println("run start");
+		
+		try {
+			Thread.sleep(10000);
+		}catch (InterruptedException ie) {
+			// TODO: handle exception
+		}
+		
+		System.out.println("run end");
+	}
+}

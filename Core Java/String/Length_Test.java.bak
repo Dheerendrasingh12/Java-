@@ -1,0 +1,76 @@
+import java.util.*;
+public class Length_Test 
+{
+	public static void main(String[] args) 
+	{
+		String s1="";
+		System.out.println("s1 length :"+s1.length());
+
+		String s2=" ";
+		System.out.println("s2 length :"+s2.length());
+
+		String s3="Dheerendra";
+		System.out.println("s3 length :"+s3.length());
+
+		String s4=new String();
+		System.out.println("s4 length :"+s4.length());
+		
+		String s5=new String("");
+		System.out.println("s5 length :"+s5.length());
+
+		String s6=new String(" ");
+		System.out.println("s6 length :"+s6.length());
+
+		String s7=new String("Dheerendra");
+		System.out.println("s7 length :"+s7.length());
+
+		String s8=null;
+//		System.out.println("s8 length :"+s8.length());
+
+		
+		String s9="null";
+		System.out.println("s9 length :"+s9.length());
+
+		String s10;
+		//System.out.println("s10 length :"+s10.length());
+	
+//		System.out.println("s11 length :"+s11.length());
+
+//		System.out.println("s11 length :"+s11.isEmpty());
+	
+		
+		Scanner scn=new Scanner(System.in);
+		System.out.println("Enter String ");
+		System.out.println(scn.nextLine().length());
+	
+		
+		System.out.println("Enter String ");
+		System.out.println(scn.nextLine().length());
+
+		
+		System.out.println("Enter String ");
+		System.out.println(scn.nextLine().length());
+	
+
+
+		String s12="Dheerendra Singh";
+		
+		//System.out.println(s12.length);
+		
+		System.out.println(s12.length());
+
+
+		String[] s13={"Dheerendra "," Singh "};
+
+		
+		System.out.println(s13.length);
+		
+		System.out.println(s13.length() );
+	
+	
+	
+	
+	}
+
+	static String s11;
+}

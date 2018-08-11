@@ -1,0 +1,34 @@
+interface Shape{
+double pi=3.14;
+/*void findArea(){
+System.out.println("Hello");
+}*/
+
+public static final int area=12;
+ void findArea();
+
+	//private void findArea1()
+	//	protected void findArea1();
+
+
+}
+class Rec implements Shape
+{
+	public void findArea(){
+	System.out.println("Rec");
+	}
+};
+
+
+class Rule1
+{
+	public static void main(String...args){
+		//Shape s=new Shape();
+		Shape s=null;
+		 s=new Rec();
+		s.findArea();
+	
+	
+	}
+};
+

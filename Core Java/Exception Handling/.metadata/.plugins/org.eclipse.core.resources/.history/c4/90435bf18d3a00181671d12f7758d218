@@ -1,0 +1,9 @@
+package com.dheerendra.thread;
+
+public class My_Test_RunExecution {
+
+	public static void main(String[] args) {
+		Thread th1=new Thread();
+		th1.start();
+	}
+}

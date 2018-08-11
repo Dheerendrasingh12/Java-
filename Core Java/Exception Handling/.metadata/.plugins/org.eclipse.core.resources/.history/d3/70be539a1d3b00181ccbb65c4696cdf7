@@ -1,0 +1,9 @@
+package com.dheerendra.priority;
+
+public class Daemon_Thread extends Thread{
+ public static void main(String[] args) {
+	Daemon_Thread mt=new Daemon_Thread();
+	mt.setDaemon(true);
+	mt.start();
+}
+}

@@ -1,0 +1,6 @@
+package com.dheerendra.thread;
+
+public class MyRunnable2 implements Runnable{
+
+
+}

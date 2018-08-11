@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ArrayList_Method&apos; to &apos;com.dheerendra.arraylist&apos;&#x0D;&#x0A;- Original project: &apos;ArrayList All Methods&apos;&#x0D;&#x0A;- Original element: &apos;ArrayList All Methods/src/ArrayList_Method&apos;&#x0D;&#x0A;- Renamed element: &apos;ArrayList All Methods/src/com.dheerendra.arraylist&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ArrayList_Method&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;ArrayList_Method" name="com.dheerendra.arraylist" qualified="false" references="true" stamp="1511881066758" textual="false" version="1.0"/>
+</session>

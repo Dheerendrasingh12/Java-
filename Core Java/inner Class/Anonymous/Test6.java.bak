@@ -1,0 +1,25 @@
+interface Example{
+	void m1();
+	void m2();
+}
+
+
+class Test6 
+{
+	public static void main(String[] args) 
+	{
+
+		Example e=new Example(){
+		public void m1(){
+			System.out.println("Anonymous overriding method m1");
+			m2();
+		}
+
+		public void m2(){
+			System.out.println("Anonymous own method m2");
+		}
+	};
+	e.m1();
+	e.m2();
+	}
+}

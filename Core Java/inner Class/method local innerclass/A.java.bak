@@ -1,0 +1,11 @@
+class A
+{
+	void m1(){
+		class B
+		{
+		
+		static int a=10;
+		int x=20;                                                  
+	}
+	};
+};

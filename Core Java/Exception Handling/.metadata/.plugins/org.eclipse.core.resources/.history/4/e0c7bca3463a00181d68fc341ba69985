@@ -1,0 +1,9 @@
+package com.dheerendra.pennant;
+
+public class Exception_Summary {
+	try {
+		
+	}catch(Exception e) {
+		
+	}
+}

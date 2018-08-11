@@ -1,0 +1,9 @@
+
+package com.dheerendra.Pausing;
+
+public class Yield_Thread_Tesr extends Thread{
+
+	public void run() {
+		System.out.println("run");
+	}
+}

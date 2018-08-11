@@ -1,0 +1,13 @@
+class Synchronized_Demo 
+{
+	public static void main(String[] args) 
+	{
+		Display d1=new Display();
+		Display d2=new Display();
+		Sychronized_MyThread synmt=new Sychronized_MyThread(d1,"Dheerendra");
+		Sychronized_MyThread synmt1=new Sychronized_MyThread(d2,"come to my");
+	
+		synmt.start();
+		synmt1.start();
+	}
+}

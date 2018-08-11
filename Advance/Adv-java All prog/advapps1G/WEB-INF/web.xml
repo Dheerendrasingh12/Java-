@@ -1,0 +1,13 @@
+<web-app>
+<servlet>
+  <servlet-name>BinaryStreamDemo1Servlet</servlet-name>
+  <servlet-class>BinaryStreamDemo1Servlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>BinaryStreamDemo1Servlet</servlet-name>
+  <url-pattern>/test</url-pattern>
+</servlet-mapping>
+   
+
+</web-app>

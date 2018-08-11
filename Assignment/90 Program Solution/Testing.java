@@ -1,0 +1,18 @@
+class Testing 
+{
+	static final int no=20;
+	
+	static void m1(){
+	final int nq=30;
+	System.out.println(no+"  "+nq	);
+		
+		nq=10;
+		System.out.println(no+"  "+nq	);
+	
+	}
+
+	public static void main(String[] args) 
+	{
+		m1();
+	}
+}

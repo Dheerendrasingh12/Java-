@@ -1,0 +1,11 @@
+class Get_Set_Name_Thread 
+{
+	public static void main(String[] args) 
+	{
+		MyThread mt=new MyThread();
+		System.out.println(mt.currentThread().getName());
+		Thread.currentThread().setName("Dheerendra");
+		
+		System.out.println(mt.currentThread().getName());
+	}
+}

@@ -1,0 +1,88 @@
+
+public class Painter
+{
+	public static void main(String[] args) 
+	{
+		Shape sh=new Rectangle(12,24);
+		sh.area();
+		sh.perimeter();
+		//rec.printLB();
+
+	Rectangle rec=new Rectangle(12,24);
+		rec.area();
+		rec.perimeter();
+		rec.printLB();
+
+
+	Square sq=new Square(12);
+		sq.area();
+		sq.perimeter();
+		sq.printS();
+	Circle c=new Circle(12);
+		c.area();
+		c.perimeter();
+		c.printRad();
+
+	System.out.println("\n\n Above Code Not Eligible for GC and and  new Sub type obj create we must add code here \n");
+	
+	rec=null;
+	sq=null;
+	c=null;
+
+	System.out.println(" Up casting");
+		Shape s;
+	s=new Rectangle(9,3);
+	s.area();
+	s.perimeter();
+//	s.printLB();
+	System.out.println("printLB require  up casting ");
+	((Rectangle)s).printLB();
+
+		s=new Square(9);
+		s.area();
+		s.perimeter();
+		//s.printS();
+	System.out.println("printS require  up casting ");
+	((Square)s).printS();
+	
+		s=new Circle(12);
+		s.area();
+		s.perimeter();
+//		s.printRad();
+	System.out.println("printRad require  up casting ");
+		((Circle)s).printRad();
+
+
+
+System.out.println("\n\n\nBest Approach\n\n");
+	draw(new Rectangle(112,124));
+	draw(new Square(27));
+	draw(new Circle(81));
+	
+	}
+
+	static void  draw(Shape s){
+		s.area();
+		s.perimeter();
+	/*
+		((Rectangle)s).printLB();
+		((Square)s).printS();
+		((Circle)s).printRad();
+	*/
+	
+	if(s instanceof Rectange){
+		((Rectangle)s).printLB();
+	
+	}
+	else if(s instanceof Square){
+		((Square)s).printS();
+	
+	}
+	else if (s instanceof Circle)
+	{
+		((Circle)s).printRad();
+	
+	}
+	
+	}
+}

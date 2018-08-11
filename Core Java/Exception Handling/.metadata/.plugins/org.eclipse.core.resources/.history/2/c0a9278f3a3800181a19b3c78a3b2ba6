@@ -1,0 +1,19 @@
+package com.dheerendra.pennant;
+
+public class Try_Catch_Finally {
+	public static void main(String[] args) {
+		m1();
+	}
+	static	void m1() {
+	int a;
+	try {
+		a=12;
+		
+	}catch (ArithmeticException ae) {
+		a=20;
+		// TODO: handle exception
+	}finally {
+		System.out.println(a);
+	}
+	}
+}

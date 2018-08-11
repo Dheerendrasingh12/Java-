@@ -1,0 +1,21 @@
+package com.dheerendra.Programming;
+
+public class MyThread3 extends Thread {
+
+	public void run() {
+		for (int i = 1; i <= 20; i++) {
+			System.out.println(getName() + " run " + i);
+		}
+	}
+
+	public static void main(String[] args) {
+		MyThread3 mt1 = new MyThread3();
+		mt1.start();
+		MyThread3 mt2 = new MyThread3();
+		mt2.start();
+		
+		MyThread3 mt3=new MyThread3();
+		mt3.start();
+
+	}
+}

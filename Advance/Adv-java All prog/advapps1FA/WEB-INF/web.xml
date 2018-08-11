@@ -1,0 +1,52 @@
+<web-app>
+<servlet>
+  <servlet-name>HtmlServlet</servlet-name>
+  <servlet-class>HtmlServlet</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>WordServlet</servlet-name>
+  <servlet-class>WordServlet</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>PdfServlet</servlet-name>
+  <servlet-class>PdfServlet</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>XmlServlet</servlet-name>
+  <servlet-class>XmlServlet</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>ExcelServlet</servlet-name>
+  <servlet-class>ExcelServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>HtmlServlet</servlet-name>
+  <url-pattern>/test</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>WordServlet</servlet-name>
+  <url-pattern>/test1</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>PdfServlet</servlet-name>
+  <url-pattern>/test2</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>XmlServlet</servlet-name>
+  <url-pattern>/test3</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>ExcelServlet</servlet-name>
+  <url-pattern>/test4</url-pattern>
+</servlet-mapping>
+
+</web-app>

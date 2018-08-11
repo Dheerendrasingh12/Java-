@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Try_Catch_Finally.java&apos; to &apos;com.dheerendra.pennant.Try_Catch_Finally.java&apos;&#x0D;&#x0A;- Original project: &apos;EXCEPTION_HANDLING&apos;&#x0D;&#x0A;- Destination element: &apos;com.dheerendra.pennant.Try_Catch_Finally.java&apos;&#x0D;&#x0A;- Original element: &apos;com.dheerendra.pennant.Try_Catch_Finally.java&apos;" description="Copy compilation unit" destination="/src&lt;com.dheerendra.pennant{Try_Catch_Finally.java" element1="/src&lt;com.dheerendra.pennant{Try_Catch_Finally.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1522869353422" units="1" version="1.0"/>
+</session>

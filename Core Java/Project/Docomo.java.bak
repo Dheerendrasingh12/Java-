@@ -1,0 +1,10 @@
+public class Docomo implements SIM
+{
+	public String sendSMS(String msg,long mobNum){
+		return "Docomo : Your SMS "+msg +" is on hold "+mobNum;
+		}
+
+		public String dialCall(long mobNum){
+		return "Docomo :"+mobNum+" you are dialling is Switch Off ";
+			}
+}; 

@@ -1,0 +1,16 @@
+abstract class U  
+{
+	abstract void  m1();
+	void m2(){}
+
+}
+
+class V extends U
+{
+//	void m1(){}
+};
+
+final class X{
+
+}
+//class C extends X{};

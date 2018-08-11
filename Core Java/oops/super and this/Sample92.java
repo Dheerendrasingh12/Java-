@@ -1,0 +1,37 @@
+class Sample92
+	{
+		int x=m1();
+
+		{
+		System.out.println("Non Static Block");
+		}
+
+		int m1(){
+		System.out.println("m1 x");
+		return 12;
+		}
+	Sample92(){
+		this(10);
+		x=50;
+		System.out.println("Sa no arg constructor");
+	}
+	
+	Sample92(int a){
+		this("Dheerendra");
+		x=60;
+		System.out.println("Sa int arg constructor");
+	}
+	Sample92(String str){
+		x=70;
+		System.out.println("Sa string arg constructor");
+	}
+
+	public static void main(String...args){
+	Sample92 s1=new Sample92();
+	System.out.println("e1 x "+s1.x);
+		
+	//Sample91 s2=new Sample91("Dheerendra");
+	Sample92 s3=new Sample92(12);
+		System.out.println("e3 x "+s3.x);
+		}
+}

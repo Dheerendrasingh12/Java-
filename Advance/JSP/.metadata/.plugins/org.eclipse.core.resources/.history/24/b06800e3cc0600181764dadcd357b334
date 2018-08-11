@@ -1,0 +1,3 @@
+<%@page import="com.dheerendra.StudentBean"%>
+
+<jsp:useBean id="st" property=request.getParameter("sno")></jsp:useBean>

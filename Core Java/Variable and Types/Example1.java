@@ -1,0 +1,20 @@
+class Example1 
+{
+	int p=12;
+//	static int p=12;
+	static void m1(){
+		int p=12;
+		System.out.println(p);
+		m2();
+	}
+
+	static void m2(){
+		//int q=p+12;
+		int q=p+12;
+	}
+
+	public static void main(String[] args) 
+	{
+		m1();
+	}
+}

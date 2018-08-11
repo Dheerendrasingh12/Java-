@@ -1,0 +1,12 @@
+package com.dheerendra.Synchronized;
+
+public class Add2 {
+
+	static int x;
+	static int y;
+	static void add(int x,int y) {
+		this.x=x;
+	}
+
+	
+}

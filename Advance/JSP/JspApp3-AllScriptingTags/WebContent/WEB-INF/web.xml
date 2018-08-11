@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <context-param>
+     <param-name>p2</param-name>
+     <param-value>val2</param-value>
+  </context-param>
+   <servlet>
+      <servlet-name>test</servlet-name>
+      <jsp-file>/test.jsp</jsp-file>
+      <init-param>
+         <param-name>p1</param-name>
+         <param-value>val1</param-value>
+      </init-param>
+   </servlet>
+     <servlet-mapping>
+       <servlet-name>test</servlet-name>
+       <url-pattern>/test1</url-pattern>
+     </servlet-mapping>
+</web-app>

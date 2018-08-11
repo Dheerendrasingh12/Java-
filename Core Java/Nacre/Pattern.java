@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class Pattern
+{
+	public static void main(String[] args) 
+	{
+		Scanner scn=new Scanner(System.in);
+		System.out.println("Enter  number of rows");
+		int n=scn.nextInt();
+		for(int i=1;i<2*n;i++){
+	
+			for(int j=1;j<=i;j++){
+			System.out.print("*");
+			}
+			for(int k=i;k<2*n-i;k++){
+			System.out.print("\t");
+			
+			}//k
+		
+		System.out.println("");
+			
+		
+		}
+	}
+}

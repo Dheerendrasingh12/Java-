@@ -1,0 +1,11 @@
+package com.dheerendra.priority;
+
+public class Current_Thread_Test {
+	
+	static {
+		System.out.println("in sb");
+		
+		Thread th=Thread.currentThread();
+		System.out.println("sb is executing in \""+th.getName()+"\" thread\n");
+	}
+}

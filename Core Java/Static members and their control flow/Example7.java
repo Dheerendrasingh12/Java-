@@ -1,0 +1,29 @@
+class Example7 
+{
+	int x;
+	int y;
+	void m1(Example7 e){
+		x=x+1;
+		y=y+2;
+		e.x=e.x+3;
+		e.y=e.y+4;
+		
+
+	}
+	public static void main(String[] args) 
+	{
+ 		Example7 ex7=new Example7();
+		Example7 ex8=new Example7();
+		 
+		ex7.m1(ex8);
+		System.out.println(ex7.x+" "+ex7.y);
+		System.out.println(ex8.x+" "+ex8.y);
+	
+		ex8.m1(ex7);
+		
+		System.out.println(ex7.x+" "+ex7.y);
+ 		System.out.println(ex8.x+" "+ex8.y);
+	
+		
+	}
+}

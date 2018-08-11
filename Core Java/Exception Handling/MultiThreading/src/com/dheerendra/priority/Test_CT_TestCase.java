@@ -1,0 +1,9 @@
+package com.dheerendra.priority;
+
+public class Test_CT_TestCase {
+	public static void main(String[] args) {
+		new MyThread().start();
+		
+		new Example().m1();
+	}
+}

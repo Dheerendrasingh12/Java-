@@ -1,0 +1,10 @@
+package com.dheerendra.object;
+
+public class Example2 {
+public static void main(String[] args) {
+	Class c1=Class.forName(Example);
+	
+
+}
+
+}

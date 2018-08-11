@@ -1,0 +1,10 @@
+package com.dheerendra.Synchronized;
+
+public class Add2 {
+
+	static int x;
+	static int y;
+	
+
+	
+}

@@ -1,0 +1,23 @@
+class ThisRule_4 
+{
+	ThisRule_4(){
+	this(10);
+	System.out.println("No-param");
+	}
+	
+	ThisRule_4(int a){
+	this("dheerendra");
+
+	System.out.println("int-param");
+	}
+	ThisRule_4(String s){
+
+	System.out.println("String-param");
+}
+	
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Search</title>
+</head>
+<center><h1>Search Result</h1></center>
+<body>
+
+	Search String :<input type="text" name="ss"><br>
+	<input type="submit" value="Search">
+	<br>
+
+</body>
+</html>

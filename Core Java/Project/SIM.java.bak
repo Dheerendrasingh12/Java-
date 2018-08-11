@@ -1,0 +1,4 @@
+public interface SIM(){
+	public String sendSMS(String msg,long mobileNum);
+	public String dialCall(long mobNum);
+}
