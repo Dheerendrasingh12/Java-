@@ -2,7 +2,7 @@ class ReverseWordEx
 {
 	public static void main(String ...args)
 	{
-		String str="hello mahendra singh chouhan";
+		String str="hello dheerendra singh dhakad";
 		str=" "+str;
 		char ch[]=str.toCharArray();
 		
