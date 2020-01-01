@@ -2,7 +2,7 @@ class Upper
 {
 	public static void main(String ...args)
 	{
-		String str="hello maheNdra singh";
+		String str="hello dheeReNdra singh";
 			char ch[]=str.toCharArray();
 		for(int i=0 ; i<str.length() ; i++)
 		{			
