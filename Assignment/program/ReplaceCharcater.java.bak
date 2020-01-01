@@ -26,7 +26,7 @@ class ReplaceCharcater
 
 	public static void main(String ...args)
 	{
-		System.out.println(replace("mahendra" , 'a'));
+		System.out.println(replace("dheerendra" , 'e'));
 	}
 }
 
