@@ -23,6 +23,6 @@ class SplitString
 
 	public static void main(String []args)
 	{
-		System.out.println(replace("Anand 20 10 30 ha 40"));
+		System.out.println(replace("Dheerendra 20 10 30 ha 40"));
 	}
 }
